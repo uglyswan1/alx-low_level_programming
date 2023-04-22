@@ -15,7 +15,8 @@ int i, j;
 for (i = 0; i < 10; i++)
 {
 putchar(78 + i);
-putchar(', ');
+putchar(',');
+putchar(' ');
 }
 putchar('\n');
 return (0);
