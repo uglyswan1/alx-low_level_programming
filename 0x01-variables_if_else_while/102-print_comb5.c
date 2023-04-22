@@ -14,13 +14,18 @@ int main(void)
 int i, j;
 for (i = 0; i < 10 ; i++)
 {
-for (j = 0; j < i+2; j++)
+for (j = 0; j < 10; j++)
 {
 putchar(48 + i);
 putchar(48 + j);
 putchar(' ');
+for (k = 0; k < 10; k++)
+{
+putchar(48 + j);
+putchar(48 + k);
 }
-if ((j != 9) || (i != 8))
+}
+if ((k != 9) || (j != 8))
 {
 putchar(',');
 putchar(' ');
