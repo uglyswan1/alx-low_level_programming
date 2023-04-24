@@ -33,10 +33,10 @@ putchar(48 + j);
 putchar(' ');
 putchar(48 + k);
 putchar(48 + l);
-l++;
-}
 putchar(',');
 putchar(' ');
+l++;
+}
 }
 }
 }
