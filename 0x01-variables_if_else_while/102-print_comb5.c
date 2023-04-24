@@ -24,13 +24,14 @@ else
 {
 k = 0;
 }
-for (k; k < 10; k++)
+while (k < 10)
 {
 putchar(48 + i);
 putchar(48 + j);
 putchar(' ');
 putchar(48 + j);
 putchar(48 + k);
+k++;
 }
 }
 }
