@@ -11,27 +11,30 @@
 
 int main(void)
 {
-int i, j, k;
+int i, j, k, l;
 for (i = 0; i < 10 ; i++)
 {
 for (j = 0; j < 10; j++)
 {
-if (j == 0)
+for (k = 0; k < 10; k++)
 {
-k = 1;
+if (k == 0)
+{
+l = 1;
 }
 else
 {
-k = 0;
+l = 0;
 }
-while (k < 10)
+while (l < 10)
 {
 putchar(48 + i);
 putchar(48 + j);
 putchar(' ');
-putchar(48 + j);
-putchar(48 + k);
-k++;
+putchark(48 + k);
+putchar(48 + l);
+l++;
+}
 }
 }
 }
