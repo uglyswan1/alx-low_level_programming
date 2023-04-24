@@ -16,7 +16,11 @@ for (i = 0; i < 10 ; i++)
 {
 for (j = 0; j < 10; j++)
 {
-for (k = 1; k < 10; k++)
+if (j == 0)
+{
+k = 1;
+}
+for (k = 0; k < 10; k++)
 {
 putchar(48 + i);
 putchar(48 + j);
