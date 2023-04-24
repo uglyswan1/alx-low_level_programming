@@ -24,7 +24,7 @@ else
 {
 k = 0;
 }
-for (k < 10; k++)
+for (k; k < 10; k++)
 {
 putchar(48 + i);
 putchar(48 + j);
