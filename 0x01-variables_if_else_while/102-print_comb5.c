@@ -31,7 +31,7 @@ while (l < 10)
 putchar(48 + i);
 putchar(48 + j);
 putchar(' ');
-putchark(48 + k);
+putchar(48 + k);
 putchar(48 + l);
 l++;
 }
