@@ -20,7 +20,11 @@ if (j == 0)
 {
 k = 1;
 }
-for (k = 0; k < 10; k++)
+else
+{
+k = 0;
+}
+for (k < 10; k++)
 {
 putchar(48 + i);
 putchar(48 + j);
