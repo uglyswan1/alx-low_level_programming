@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -16,6 +15,7 @@ putchar(i);
 }
 putchar('\n');
 }
+
 int main(void)
 {
     print_alphabet();
