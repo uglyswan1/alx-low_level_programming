@@ -13,8 +13,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-char ch = '_putchar';
-putchar(ch);
+putchar('_putchar');
 putchar('\n');
 return (0);
 }
