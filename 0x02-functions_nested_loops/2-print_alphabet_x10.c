@@ -4,7 +4,7 @@
 #include "main.h"
 /* more headers goes there */
 /**
- * print_alphabet_x10 - prints 10 times the alphabet, in lowercase, followed by a new line.
+ * print_alphabet_x10 - prints 10 times the alphabet in lowercase
  */
 /* betty style doc for function main goes there */
 void print_alphabet_x10(void)
