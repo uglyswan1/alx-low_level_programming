@@ -6,7 +6,7 @@
 /**
  * main - Entry point
  *
- * Description: 'the program's description'
+ * Description: 'print_alphabet in lower case'
  *
  * Return: Always 0 (Success)
  */
