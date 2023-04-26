@@ -9,16 +9,8 @@
 /* betty style doc for function main goes there */
 int _islower(int c)
 {
-int i;
-for (i = 97; i <= 122; i++)
-{
-if (i == c)
-{
-return(1);
-}
+if (c >= 'a' && c <= 'z')
+return (1);
 else
-{
-return(0);
-}
-}
+return (0);
 }
