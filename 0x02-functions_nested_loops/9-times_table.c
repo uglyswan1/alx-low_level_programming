@@ -24,6 +24,7 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 }
+}
 else if (k > 9)
 {
 _putchar(',');
@@ -32,11 +33,6 @@ _putchar((k / 10) + '0');
 _putchar((k & 10) + '0');
 }
 }
-else
-{
-_putchar(k + '0');
-}
 }
 _putchar('\n');
-}
 }
