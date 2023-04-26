@@ -5,7 +5,7 @@
 /* more headers goes there */
 /**
  * jack_bauer - prints every minute of the day of Jack Bauer
- * @m: is the number of minutes. @s: is the number of seconds.
+ * m: is the number of minutes. @s: is the number of seconds.
  * Return: 0.
 */
 /* betty style doc for function main goes there */
