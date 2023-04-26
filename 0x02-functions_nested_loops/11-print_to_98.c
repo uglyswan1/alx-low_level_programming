@@ -4,14 +4,15 @@
 #include "main.h"
 /* more headers goes there */
 /**
- * print to 98 - prints all natural numbers from n to 98
+ * print_to_98 - prints all natural numbers from n to 98
+ * @n: number where function starts
 */
 /* betty style doc for function main goes there */
 void print_to_98(int n)
 {
 while (n <= 98)
 {
-_putchar(n + '0');
+return(n);
 if (n != 98)
 {
 _putchar(',');
@@ -21,7 +22,7 @@ n++;
 }
 while (n >= 98)
 {
-_putchar(n + '0');
+return(n);
 if (n != 98)
 {
 _putchar(',');
