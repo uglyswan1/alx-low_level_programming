@@ -4,7 +4,7 @@
 #include "main.h"
 /* more headers goes there */
 /**
- * _islower() - checks for lowercase character
+ * _islower - checks for lowercase character
  */
 /* betty style doc for function main goes there */
 int _islower(int c)
@@ -14,11 +14,11 @@ for (i = 97; i <= 122; i++)
 {
 if (i == c)
 {
-putchar(49);
+return(1);
 }
 else
 {
-putchar(48);
+return(0);
 }
 }
 }
