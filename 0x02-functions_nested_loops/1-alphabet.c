@@ -2,9 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 #include "main.h"
+/* more headers goes there */
 /**
- * print alphabet in lower case
+ * main - Entry point
+ *
+ * Description: 'the program's description'
+ *
+ * Return: Always 0 (Success)
  */
+/* betty style doc for function main goes there */
 void print_alphabet(void)
 {
 int i;
