@@ -5,7 +5,9 @@
 /* more headers goes there */
 /**
  * _islower - checks for lowercase character
- */
+ * @c: is the char to be checked
+ * Return: 1 if char is lowercase, otherwise 0.
+*/
 /* betty style doc for function main goes there */
 int _islower(int c)
 {
