@@ -12,7 +12,7 @@ void print_to_98(int n)
 {
 while (n <= 98)
 {
-return(n);
+_putchar(n + 48);
 if (n != 98)
 {
 _putchar(',');
@@ -22,7 +22,7 @@ n++;
 }
 while (n >= 98)
 {
-return(n);
+_putchar(n + 48);
 if (n != 98)
 {
 _putchar(',');
