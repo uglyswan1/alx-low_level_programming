@@ -24,7 +24,7 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 }
-else
+else if (k > 9)
 {
 _putchar(',');
 _putchar(' ');
