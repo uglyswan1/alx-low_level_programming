@@ -6,7 +6,7 @@
 /**
  * main - Entry point
  *
- * Description: 'print_alphabet in lower case'
+ * print_alphabet - print all alphabet in lowercase
  *
  * Return: Always 0 (Success)
  */
