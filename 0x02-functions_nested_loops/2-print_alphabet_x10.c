@@ -9,13 +9,9 @@
 /* betty style doc for function main goes there */
 void print_alphabet_x10(void)
 {
-int i, j;
-for (i = 97; i <= 122; i++)
-{
+int j;
 for (j = 0; j < 10; j++)
 {
-putchar(i);
-}
-putchar('\n');
+print_alphabet();
 }
 }
