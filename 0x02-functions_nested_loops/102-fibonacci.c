@@ -14,12 +14,14 @@ int i;
 int sum = 0;
 int a = 1;
 int b = 2;
+printf("%d, ", a);
+printf("%d, ", b);
 for (i = 0; i < 50; i++)
 {
 sum = a + b;
+printf("%d, ", sum);
 a = b;
 b = sum;
 }
-printf("%d, ", sum);
 return (0);
 }
