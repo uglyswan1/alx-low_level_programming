@@ -10,7 +10,6 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-int i;
 unsigned long sum = 0;
 unsigned long a = 1;
 unsigned long b = 2;
