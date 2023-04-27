@@ -16,7 +16,7 @@ unsigned long a = 1;
 unsigned long b = 2;
 printf("%lu, ", a);
 printf("%lu, ", b);
-for (i = 0; i < 50; i++)
+for (i = 0; i < 48; i++)
 {
 sum = a + b;
 if (i != 49)
