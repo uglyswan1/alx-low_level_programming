@@ -19,7 +19,14 @@ printf("%d, ", b);
 for (i = 0; i < 50; i++)
 {
 sum = a + b;
+if (i != 49)
+{
 printf("%d, ", sum);
+}
+else if (i == 49)
+{
+printf("%d\n", sum);
+}
 a = b;
 b = sum;
 }
