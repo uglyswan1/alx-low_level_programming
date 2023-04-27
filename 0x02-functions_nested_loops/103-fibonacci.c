@@ -15,7 +15,7 @@ unsigned long a = 1;
 unsigned long b = 2;
 unsigned long c = 0;
 sum = a + b;
-while (sum < 4000000)
+while (sum < 3999998)
 {
 a = b;
 b = sum;
