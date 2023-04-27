@@ -14,8 +14,8 @@ int i;
 unsigned long sum = 0;
 unsigned long a = 1;
 unsigned long b = 2;
-printf("%d, ", a);
-printf("%d, ", b);
+printf("%lu, ", a);
+printf("%lu, ", b);
 for (i = 0; i < 50; i++)
 {
 sum = a + b;
@@ -25,7 +25,7 @@ printf("%lu, ", sum);
 }
 else if (i == 49)
 {
-printf("%d\n", sum);
+printf("%lu\n", sum);
 }
 a = b;
 b = sum;
