@@ -14,12 +14,11 @@ unsigned long sum = 0;
 unsigned long a = 1;
 unsigned long b = 2;
 unsigned long c = 0;
-sum = a + b;
-while (sum < 3999998)
+while (sum < 4000000)
 {
+sum = a + b;
 a = b;
 b = sum;
-sum = a + b;
 if ((sum % 2) == 0)
 {
 c = c + sum;
