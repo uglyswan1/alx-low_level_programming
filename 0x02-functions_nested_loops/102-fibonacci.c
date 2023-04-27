@@ -11,9 +11,9 @@
 int main(void)
 {
 int i;
-int sum = 0;
-int a = 1;
-int b = 2;
+unsigned long sum = 0;
+unsigned long a = 1;
+unsigned long b = 2;
 printf("%d, ", a);
 printf("%d, ", b);
 for (i = 0; i < 50; i++)
@@ -21,7 +21,7 @@ for (i = 0; i < 50; i++)
 sum = a + b;
 if (i != 49)
 {
-printf("%d, ", sum);
+printf("%lu, ", sum);
 }
 else if (i == 49)
 {
