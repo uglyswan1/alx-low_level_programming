@@ -1,13 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include "main.h"
-/* more headers goes there */
 /**
- * natural - write the 9 times table
-*/
+ * main - Lists all the natural numbers below 1024 (excluded)
+ * that are multiples of 3 or 5.
+ *
+ * Return: Always 0.
+ */
 /* betty style doc for function main goes there */
-void natural(void)
+int main(void)
 {
 int i;
 int sum = 0;
@@ -19,4 +20,5 @@ sum = sum + i;
 }
 }
 printf("%d\n", sum);
+return(0);
 }
