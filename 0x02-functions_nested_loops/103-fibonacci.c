@@ -13,7 +13,7 @@ int main(void)
 unsigned long sum = 0;
 unsigned long a = 1;
 unsigned long b = 2;
-unsigned long c = 0;
+unsigned long c = 2;
 while (sum <= 4000000)
 {
 sum = a + b;
