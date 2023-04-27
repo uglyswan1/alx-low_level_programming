@@ -19,11 +19,11 @@ printf("%lu, ", b);
 for (i = 0; i < 48; i++)
 {
 sum = a + b;
-if (i != 49)
+if (i != 47)
 {
 printf("%lu, ", sum);
 }
-else if (i == 49)
+else if (i == 47)
 {
 printf("%lu\n", sum);
 }
