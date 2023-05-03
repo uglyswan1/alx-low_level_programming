@@ -15,7 +15,7 @@ i++;
 }
 if ((length % 2) == 1)
 {
-length = length - 1;
+length = length + 1;
 }
 for (i = length / 2; i < length; i++)
 {
