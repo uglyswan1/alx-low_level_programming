@@ -15,7 +15,7 @@ while (*s != '\0')
 length++;
 s++;
 }
-for (k = 0; k <= length+1; k++)
+for (k = 0; k <= length + 1; k++)
 {
 s--;
 }
