@@ -17,7 +17,7 @@ if ((length % 2) == 1)
 {
 length = length - 1;
 }
-for (i = length / 2; i < length; i++)
+for (i = length / 2; str[i] != '\0'; i++)
 {
 _putchar(str[i]);
 }
