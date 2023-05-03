@@ -19,11 +19,11 @@ else if (s[i-1] == '-')
 {
 _putchar('-');
 }
-_putchar(s[i]);
+return (s[i]);
 }
 else
 {
-_putchar('0');
+return (0);
 }
 }
 }
