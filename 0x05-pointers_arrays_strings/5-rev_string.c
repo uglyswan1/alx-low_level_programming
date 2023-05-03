@@ -15,15 +15,13 @@ while (*s != '\0')
 length++;
 s++;
 }
-s--;
-for (i = length; i > 0; i--)
+for (i = length; i >= 0; i--)
 {
-if (j < length)
+if (j <= length)
 {
 s[j] = s[i];
 j++;
 }
-s--;
 }
 *s = s[j];
 }
