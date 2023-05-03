@@ -19,9 +19,9 @@ for (k = 0; k <= length + 1; k++)
 {
 s--;
 }
-for (i = length; i >= 0; i--)
+for (i = length + 1; i >= 0; i--)
 {
-if (j <= length)
+if (j <= length + 1)
 {
 s[j] = s[i];
 j++;
