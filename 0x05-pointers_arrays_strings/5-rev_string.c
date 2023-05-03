@@ -17,10 +17,12 @@ s++;
 s--;
 for (i = length; i > 0; i--)
 {
-for (j = 0; j < length; j++)
+if (j < length)
 {
 s[j] = s[i];
+j++;
 }
+s--;
 }
-return (s[j]);
+*s = s[j];
 }
