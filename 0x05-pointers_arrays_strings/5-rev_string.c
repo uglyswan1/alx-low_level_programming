@@ -24,8 +24,8 @@ for (i = length + 1; i >= 0; i--)
 if (j <= length + 1)
 {
 s[j] = s[i];
-j++;
 }
+j++;
 }
 *s = s[j];
 }
