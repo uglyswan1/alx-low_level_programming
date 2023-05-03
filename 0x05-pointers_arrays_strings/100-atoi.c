@@ -22,6 +22,7 @@ _putchar('-');
 }
 _putchar(s[i]);
 }
-}
+else
 return (0);
+}
 }
