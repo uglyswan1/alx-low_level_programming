@@ -12,15 +12,15 @@ for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] >= '0' && s[i] <= '9')
 {
-if (s[i-1] == '+')
+if (s[i - 1] == '+')
 {
 _putchar('+');
 }
-else if (s[i-1] == '-')
+else if (s[i - 1] == '-')
 {
 _putchar('-');
 }
-return (s[i]);
+_putchar(s[i]);
 }
 }
 return (0);
