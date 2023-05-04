@@ -23,6 +23,9 @@ _putchar('-');
 _putchar(s[i]);
 }
 else
-return (0);
+{
+_putchar('0');
 }
+}
+return ();
 }
