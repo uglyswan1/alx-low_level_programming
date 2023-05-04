@@ -7,25 +7,24 @@
  */
 int _atoi(char *s)
 {
-int i;
+int i, n;
 for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] >= '0' && s[i] <= '9')
 {
 if (s[i - 1] == '+')
 {
-_putchar('+');
+n = s[i];
 }
 else if (s[i - 1] == '-')
 {
-_putchar('-');
+n = -s[i];
 }
-_putchar(s[i]);
 }
 else
 {
-_putchar('0');
+return (0);
 }
 }
-return ();
+return (n);
 }
