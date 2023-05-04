@@ -26,5 +26,6 @@ sum += n;
 putchar(n + '0');
 break;
 }
+}
 return (0);
 }
