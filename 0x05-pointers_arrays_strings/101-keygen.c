@@ -11,6 +11,7 @@
 
 int main(void){
 int mdp[10];
+int pass;
 int i;
 for (i = 0; i < 10; i++)
 {
