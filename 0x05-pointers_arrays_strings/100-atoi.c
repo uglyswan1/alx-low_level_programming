@@ -12,14 +12,13 @@ for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] >= '0' && s[i] <= '9')
 {
-k = s[i];
 if (s[i - 1] == '+')
 {
-n = k;
+_putchar('+');
 }
 else if (s[i - 1] == '-')
 {
-n = -k;
+_putchar('-');
 }
 }
 else
@@ -27,5 +26,5 @@ else
 return (0);
 }
 }
-return (n);
+return (s[i]);
 }
