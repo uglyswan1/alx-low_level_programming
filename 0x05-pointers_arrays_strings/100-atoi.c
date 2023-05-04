@@ -20,12 +20,12 @@ else if (s[i - 1] == '-')
 {
 _putchar('-');
 }
-n = s[i] - '0';
+return (s[i]);
 }
 else
 {
 return (0);
 }
 }
-return (n);
+return (0);
 }
