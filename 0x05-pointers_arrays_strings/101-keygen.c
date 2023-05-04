@@ -16,6 +16,7 @@ for (i = 0; i < 10; i++)
 {
 mdp[i] = rand() % 10;
 }
-printf("%ls", mdp);
+pass = mdp;
+printf("%d", pass);
 return (0);
 }
