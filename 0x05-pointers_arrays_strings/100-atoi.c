@@ -7,7 +7,7 @@
  */
 int _atoi(char *s)
 {
-int i;
+int i, n;
 for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] >= '0' && s[i] <= '9')
@@ -20,11 +20,12 @@ else if (s[i - 1] == '-')
 {
 _putchar('-');
 }
+n = s[i] - '0';
 }
 else
 {
 return (0);
 }
 }
-return (s[i]);
+return (n);
 }
