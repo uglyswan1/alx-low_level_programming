@@ -16,7 +16,7 @@ int main(void)
    * - only one statement
    * - you are not allowed to code anything else than this line of code
    */
- printf("%d -", 1122);
+ printf("%d", 1122, "-");
   /* ...so that this prints 98\n */
   printf("a[2] = %d\n", a[2]);
   return (0);
