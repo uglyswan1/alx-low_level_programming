@@ -5,22 +5,15 @@
  */
 void print_number(int n)
 {
-char i, k;
+unsigned int k;
+k = n;
 if (n < 0)
 {
 _putchar('-');
 }
-k = n;
-for (i = '0'; i < '9'; i++)
+if (k / 10 != 0)
 {
-if (k == i)
-{
-_putchar(k + '0');
+print_number(k / 10);
 }
-}
-if ((k / 10) != 0)
-{
-_putchar((k / 10) + '0');
 _putchar((k % 10) + '0');
-}
 }
