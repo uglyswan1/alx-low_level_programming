@@ -11,7 +11,7 @@ char s1[] = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
 char s2[] = "nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHiIjJkKlLmM";
 for (i = 0; n[i] != '\0'; i++)
 {
-for (j = 0; j < 26; j++)
+for (j = 0; j < 52; j++)
 {
 if (n[i] == s1[j])
 {
