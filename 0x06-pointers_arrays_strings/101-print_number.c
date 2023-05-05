@@ -6,11 +6,11 @@
 void print_number(int n)
 {
 char i, k;
-k = n;
 if (n < 0)
 {
 _putchar('-');
 }
+k = n;
 for (i = '0'; i < '9'; i++)
 {
 if (k == i)
