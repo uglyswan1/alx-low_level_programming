@@ -16,13 +16,13 @@ if (j == 0)
 {
 if (s[i] == c)
 {
-k = &s[i];
 j++;
-return (k);
 break;
 }
 }
 }
 if (s[i] == '\0' && j == 0)
 return (NULL);
+else
+return (s[i]);
 }
