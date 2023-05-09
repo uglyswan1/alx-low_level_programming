@@ -23,6 +23,10 @@ if (s[i] == accept[k])
 {
 n++;
 }
+else if (accept[k + 1] == '\0')
+{
+return (n);
+}
 }
 }
 return (n);
