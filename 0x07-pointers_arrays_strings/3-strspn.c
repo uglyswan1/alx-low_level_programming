@@ -18,7 +18,6 @@ for (i = 0; i < j; i++)
 {
 for (k = 0; k < j; k++)
 {
-{
 if (s[i] == accept[k])
 {
 n++;
