@@ -16,15 +16,7 @@ for (j = 0; accept[j] != '\0'; j++)
 {
 if (s[i] == accept[j])
 {
-while (k[m] != '\0')
-{
-if (k[m] != s[i])
-{
 return (&s[i]);
-}
-k[m] = s[i];
-m++;
-}
 }
 }
 }
