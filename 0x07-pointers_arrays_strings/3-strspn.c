@@ -8,11 +8,9 @@
 unsigned int _strspn(char *s, char *accept)
 {
 int j = 0;
-int i;
 while (accept[j] != '\0')
 {
 j++;
 }
-j--;
 return (j);
 }
