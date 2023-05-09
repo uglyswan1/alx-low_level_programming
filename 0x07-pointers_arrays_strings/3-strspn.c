@@ -14,6 +14,7 @@ while (accept[j] != '\0')
 {
 j++;
 }
+j--;
 for (i = 0; i < j; i++)
 {
 for (k = 0; k < j; k++)
