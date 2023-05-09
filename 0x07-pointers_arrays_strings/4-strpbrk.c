@@ -21,7 +21,7 @@ while (k[m] != '\0')
 {
 if (k[m] != s[i])
 {
-return (&s[i]);
+return (s);
 }
 k[m] = s[i];
 m++;
