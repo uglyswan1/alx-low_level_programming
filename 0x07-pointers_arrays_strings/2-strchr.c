@@ -21,7 +21,7 @@ break;
 }
 }
 if (s[i] == '\0' && j == 0)
-return (NULL);
+return (0);
 else
-return (s[i]);
+return (&s[i]);
 }
