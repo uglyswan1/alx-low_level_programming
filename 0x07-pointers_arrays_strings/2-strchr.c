@@ -9,7 +9,7 @@ char *_strchr(char *s, char c)
 {
 int i;
 int j = 0;
-for (i = 0; s[i] <= '\0'; i++)
+for (i = 0; s[i] != '\0'; i++)
 {
 if (j == 0)
 {
@@ -20,7 +20,7 @@ break;
 }
 }
 }
-if (s[i] == '\0' && j == 0)
+if (j == 0)
 return (0);
 else
 return (&s[i]);
