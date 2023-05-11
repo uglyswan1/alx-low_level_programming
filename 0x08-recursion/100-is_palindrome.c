@@ -26,7 +26,7 @@ if (s[i] != '\0')
 {
 return (is_palindrome2(s, i + 1));
 }
-return (is_palindrome3(s, i, 0));
+return (is_palindrome3(s, i - 1, 0));
 }
 /**
  * is_palindrome3 - returns 1 if string is a plaindrome else 0
@@ -38,7 +38,7 @@ return (is_palindrome3(s, i, 0));
 int is_palindrome3(char *s, int i, int j)
 {
 if (s[j] == s[i])
-{
+i{
 return (is_palindrome3(s, i - 1, j + 1));
 return (1);
 }
