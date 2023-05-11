@@ -24,7 +24,7 @@ int is_palindrome2(char *s, int i)
 {
 if (s[i] != '\0')
 {
-return (is_palindrome(s, i + 1));
+return (is_palindrome2(s, i + 1));
 }
 return (is_palindrome3(s, i, 0));
 }
