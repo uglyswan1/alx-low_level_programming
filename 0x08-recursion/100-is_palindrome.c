@@ -38,7 +38,7 @@ return (is_palindrome3(s, i - 1, 0));
 int is_palindrome3(char *s, int i, int j)
 {
 if (s[j] == s[i])
-i{
+{
 return (is_palindrome3(s, i - 1, j + 1));
 return (1);
 }
