@@ -35,5 +35,8 @@ return (is_prime(s1, s2, i + 1, j));
 }
 }
 else
+{
 return (is_prime(s1, s2, i, j + 1));
+}
+return (0);
 }
