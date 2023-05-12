@@ -20,7 +20,7 @@ return (is_prime(s1, s2, 0, 0));
  */
 int is_prime(char *s1, char *s2, int i, int j)
 {
-if (s2[j] == '*')
+if (s2[j] != '*')
 {
 return (is_prime(s1, s2, i, j + 1));
 if (s1[i] == s2[j])
@@ -34,5 +34,6 @@ return (0);
 return (is_prime(s1, s2, i + 1, j));
 }
 }
+else
 return (is_prime(s1, s2, i, j + 1));
 }
