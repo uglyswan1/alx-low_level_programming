@@ -22,7 +22,6 @@ int is_prime(char *s1, char *s2, int i, int j)
 {
 if (s2[j] != '*')
 {
-return (is_prime(s1, s2, i, j + 1));
 if (s1[i] == s2[j])
 {
 return (1);
