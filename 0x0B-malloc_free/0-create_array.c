@@ -18,7 +18,21 @@ return (0);
 }
 while (j < i)
 {
-_putchar(c);
+if ((j % 10) == 0)
+{
+_putchar(48);
+_putchar('x');
+_putchar(c + 48);
+_putchar(' ');
+_putchar('\n');
+}
+else
+{
+_putchar(48);
+_putchar('x');
+_putchar(c + 48);
+_putchar(' ');
+}
 j++;
 }
 return (0);
