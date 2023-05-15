@@ -18,7 +18,7 @@ return (0);
 }
 while (j < i)
 {
-_putchar(c[j]);
+_putchar(c);
 }
 return (0);
 }
