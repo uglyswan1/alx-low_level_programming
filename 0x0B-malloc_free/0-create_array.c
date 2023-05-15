@@ -19,6 +19,7 @@ return (0);
 while (j < i)
 {
 _putchar(c);
+j++;
 }
 return (0);
 }
