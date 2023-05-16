@@ -30,7 +30,7 @@ else
 {
 _putchar(48);
 _putchar('x');
-_putchar(c + 48);
+_putchar(c + '0');
 _putchar(' ');
 }
 j++;
