@@ -35,6 +35,5 @@ _putchar(' ');
 }
 j++;
 }
-if (j == 0)
 return (0);
 }
