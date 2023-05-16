@@ -18,11 +18,11 @@ return (0);
 }
 while (j < i)
 {
-if ((j % 10) == 0)
+if (j > 1 && (j % 10) == 0)
 {
 _putchar(48);
 _putchar('x');
-_putchar(c + 48);
+_putchar(c + '0');
 _putchar(' ');
 _putchar('\n');
 }
@@ -35,5 +35,6 @@ _putchar(' ');
 }
 j++;
 }
+if (j == 0)
 return (0);
 }
