@@ -19,6 +19,6 @@ return (i);
 }
 else
 {
-return (*all);
+return (all);
 }
 }
