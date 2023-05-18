@@ -10,7 +10,8 @@
 void *malloc_checked(unsigned int b)
 {
 int *all;
-int i = b;
+int i;
+i = b;
 all = malloc(sizeof(int) * i);
 if (all == NULL)
 {
