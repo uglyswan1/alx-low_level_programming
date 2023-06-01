@@ -13,10 +13,10 @@ list_t *add_node_end(list_t **head, const char *str)
 {
 list_t *strnew;
 list_t *temp = *head;
-unsigned int length = 0;
-while (str[length])
+unsigned int len = 0;
+while (str[len])
 {
-length++;
+len++;
 }
 strnew = malloc(sizeof(list_t));
 if (!strnew)
@@ -24,7 +24,7 @@ if (!strnew)
 return (NULL);
 }
 strnew->str = strdup(str);
-strnew->length = len;
+strnew->len = len;
 strnew->next = NULL;
 if (*head == NULL)
 {
